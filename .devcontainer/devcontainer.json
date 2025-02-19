@@ -1,0 +1,8 @@
+{
+	"name": "minimal-example",
+	"dockerComposeFile": "compose.yaml",
+	"service": "alpine",
+	"runServices": ["db"],
+	"forwardPorts": ["db:5432"],
+	"workspaceFolder": "/workspace"
+}
